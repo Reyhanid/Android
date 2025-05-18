@@ -1,4 +1,3 @@
-import 'dart:async';
 
 import 'package:car_catalogue/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -31,9 +30,9 @@ class LoginScreen extends StatelessWidget {
                   Text(
                     'This is a catalogue for choosing your dream car',
                     style: TextStyle(
-                      fontFamily: 'RockThornRegular_0WmjG.otf',
+                      // fontFamily: 'RockThornRegular_0WmjG.otf',
                       fontSize: 20,
-                      color: Color(0xFFe37923),
+                      // color: Color(0xFFe37923),
                     ),
                     textAlign: TextAlign.center,
                   ),
@@ -44,7 +43,7 @@ class LoginScreen extends StatelessWidget {
                       style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                         hintText: 'Enter your email',
-                        hintStyle: TextStyle(color: Color(0xFFe37923)),
+                        // hintStyle: TextStyle(color: Color(0xFFe37923)),
                         border: UnderlineInputBorder(),
                         contentPadding: EdgeInsets.symmetric(horizontal: 16.0),
                       ),
@@ -57,7 +56,7 @@ class LoginScreen extends StatelessWidget {
                       style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                         hintText: 'Enter your password',
-                        hintStyle: TextStyle(color: Color(0xFFe37923)),
+                        // hintStyle: TextStyle(color: Color(0xFFe37923)),
                         border: UnderlineInputBorder(),
                         contentPadding: EdgeInsets.symmetric(horizontal: 16.0),
                       ),
@@ -79,7 +78,7 @@ class LoginScreen extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(horizontal: 35),
                           minimumSize: Size(30, 60)
                       ),
-                      child: Text('Login',style: TextStyle(fontWeight: FontWeight.bold),),
+                      child: Text('Login'),
                     ),
                   ),
                   Column(
@@ -89,7 +88,7 @@ class LoginScreen extends StatelessWidget {
                         children: [
                           Text('don`t have an account?'),
                           SizedBox(width: 4,),
-                          Text('sign up!',style: TextStyle(color:Colors.white.withOpacity(0.6),fontWeight: FontWeight.w500 ),),
+                          Text('sign up!',style: TextStyle(color:Colors.white,fontWeight: FontWeight.w500 ),),
                         ],
                       ),
                     ],
@@ -114,9 +113,9 @@ class LoginScreen extends StatelessWidget {
             Text(
               'Welcome',
               style: TextStyle(
-                color: Color(0xFFe37923),
+                // color: Color(0xFFe37923),
                 fontSize: 26,
-                fontWeight: FontWeight.bold,
+                // fontWeight: FontWeight.bold,
               ),
             ),
             SizedBox(height: 20),

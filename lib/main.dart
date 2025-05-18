@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-// import 'package:testazarnia/login_screen.dart';
 
 
-import 'login_screen.dart';
 import 'login_screen.dart';
 
 void main() {

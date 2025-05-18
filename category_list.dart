@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFC72C41),
+      backgroundColor: Colors.red,
       appBar: AppBar(
         title: const Text(
           'wellcome',
@@ -13,14 +12,12 @@ class LoginScreen extends StatelessWidget {
             color: Colors.black,
           ),
         ),
-        backgroundColor: const Color(0xff800000),
+        backgroundColor: Colors.red,
         centerTitle: true,
       ),
-      body:
-      Padding(
+      body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child:
-        Column(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             // FlutterLogo(
@@ -29,13 +26,10 @@ class LoginScreen extends StatelessWidget {
             // SizedBox(
             //   height: 20,
             // ),
-            Text(
-              'this is a catalogue for choosing your dream car',
-              style: TextStyle( fontFamily:'RockThornRegular_0WmjG.otf' , fontSize: 20),
+            Text('this is a catalogue for choosing your dream car',
+              // style: TextStyle(fontFamily: 'RockThornRegular_0WmjG.otf', fontSize: 20),
             ),
-            SizedBox(
-              height: 48,
-            ),
+            SizedBox(height: 48,),
             Container(
               decoration: BoxDecoration(
                 color: Colors.black, // White background color
@@ -51,8 +45,7 @@ class LoginScreen extends StatelessWidget {
                 decoration: InputDecoration(
                   border: InputBorder.none, // Remove the default underline
                   contentPadding: EdgeInsets.symmetric(
-                      horizontal:
-                      16.0), // Add some padding inside the text field
+                      horizontal: 16.0), // Add some padding inside the text field
                 ),
               ),
             ),
@@ -68,13 +61,12 @@ class LoginScreen extends StatelessWidget {
                   width: 2.0, // Optional: Border width
                 ),
               ),
-              child:TextField(
-                keyboardType : TextInputType.number,
+              child: TextField(
+                keyboardType: TextInputType.number,
                 style: TextStyle(color: Colors.red),
                 decoration: InputDecoration(
                   border: InputBorder.none, // Remove the default underline
-                  contentPadding: EdgeInsets.symmetric(
-                      horizontal: 16.0 ),
+                  contentPadding: EdgeInsets.symmetric(horizontal: 16.0),
                 ),
               ),
             ),
@@ -82,12 +74,13 @@ class LoginScreen extends StatelessWidget {
               height: 30,
             ),
             SizedBox(
-              width: double.infinity, // Make the button fill the available width
+              width: double.infinity,
+              // Make the button fill the available width
               child: ElevatedButton(
                 onPressed: () {
                   // nothing
                 },
-                child:  Text('Login'),
+                child: Text('Login'),
               ),
             )
           ],

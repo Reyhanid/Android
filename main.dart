@@ -1,13 +1,16 @@
+import 'package:car_catalogue/car_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-// import 'package:testazarnia/login_screen.dart';
+import 'category_list.dart';
 
-
-import 'login_screen.dart';
-import 'login_screen.dart';
-
-void main() {
-  runApp(const MyApp());
+void main() async {
+  FlutterError.onError = (FlutterErrorDetails details) {
+    // Log or handle the error details
+  };
+  WidgetsFlutterBinding.ensureInitialized();
+  // await di.init()
+  runApp(
+      const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -16,13 +19,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home:  LoginScreen(),
+      // home : Scaffold(
+      //   body: ,
+      // )
+      debugShowCheckedModeBanner: false,
+      title: 'Car Catalogue',
+      // theme: ThemeData(
+      //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      //   useMaterial3: true,
+      // ),
+      home: LoginScreen(),
     );
   }
 }
