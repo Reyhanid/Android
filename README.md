@@ -1,16 +1,11 @@
 # car_catalogue
 
-A new Flutter project.
+A new Flutter project about cars.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+این پروژه یک کاتالوگ جامع از خودروها و موتورسیکلت‌ها است که به علاقه‌مندان دنیای وسایل نقلیه کمک می‌کند تا اطلاعات مختلفی مانند سال تولید، مشخصات و جزئیات مربوط به هر وسیله را مشاهده کنند.
+این پروژه توسط ریحانه ایزدی و عسل صابری به عنوان پروژهٔ دانشگاهی توسعه داده شده است.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+در حال حاضر، به دلیل منقضی شدن API، تصاویر در دسترس نیستند. این پروژه پیش‌تر به Supabase متصل بوده است. همچنین به دلیل حجم بالای تصاویر با کیفیت، فایل‌های تصویری از بستهٔ ZIP حذف شده‌اند.
